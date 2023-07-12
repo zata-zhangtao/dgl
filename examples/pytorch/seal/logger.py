@@ -54,7 +54,7 @@ class LightLogging(object):
                 datefmt="%Y-%m-%d-%H:%M",
                 handlers=[
                     logging.FileHandler(log_name, mode="w"),
-                    logging.StreamHandler(),
+                    # logging.StreamHandler(),
                 ],
             )
             logging.info("Start Logging")
